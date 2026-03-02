@@ -7,17 +7,12 @@ namespace NQ_LRX_Demo
 {
     public class LrXCyclicReader
     {
-        // ✅ Có reader.Client như bạn cần
         public EEIPClient Client { get; private set; }
-
-        // ✅ Có reader.IsConnected như bạn cần
         public bool IsConnected { get; private set; } = false;
-
         public LrXCyclicReader()
         {
             Client = new EEIPClient();
         }
-
         // ✅ Có reader.Connect()
         public void Connect()
         {
@@ -86,12 +81,13 @@ namespace NQ_LRX_Demo
         }
 
         // ✅ Đọc dữ liệu process data như bạn đang parse
-        public LrXData Read()
+        public LrXData Read(int PortNumber)
         {
-            if (!IsConnected || Client.T_O_IOData == null || Client.T_O_IOData.Length < NqConfig.Port1OffsetBytes + 4)
+            int PortOffsetBytes = NqConfig.PortOffsetBytes + (PortNumber - 1) * 8;
+            if (!IsConnected || Client.T_O_IOData == null || Client.T_O_IOData.Length < PortOffsetBytes + 4)
                 return new LrXData { IsValid = false };
 
-            int b = NqConfig.Port1OffsetBytes;
+            int b = PortOffsetBytes;
             byte[] buf = Client.T_O_IOData;
 
             byte b0 = buf[b];
@@ -114,10 +110,7 @@ namespace NQ_LRX_Demo
                 Error = (status & 0x0800) != 0
             };
         }
-
-        // ✅ HEARTBEAT: không dựa data đổi
-        // CIP Get_Attribute_Single tới Identity Object (Class 0x01, Instance 1, Attribute 1)
-        // Trả TRUE nếu thiết bị còn phản hồi
+        /// PING ///
         public bool PingIdentity(int timeoutMs = 300)
         {
             if (!IsConnected) return false;
@@ -182,8 +175,6 @@ namespace NQ_LRX_Demo
                 return false;
             }
         }
-
-        // ===== helper reflection =====
         private NetworkStream GetPrivateStream(EEIPClient client)
         {
             try
@@ -219,13 +210,4 @@ namespace NQ_LRX_Demo
         }
     }
 
-    public class LrXData
-    {
-        public bool IsValid { get; set; }
-        public double DistanceMm { get; set; }
-        public bool Out1 { get; set; }
-        public bool Out2 { get; set; }
-        public bool Warning { get; set; }
-        public bool Error { get; set; }
-    }
 }

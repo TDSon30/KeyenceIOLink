@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\",
+  "WorkspaceRootPath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|e:\\dson\\coding\\c#\\keyenceiolink\\nqconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:nqconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|d:\\dson\\coding\\c#\\keyenceiolink\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|e:\\dson\\coding\\c#\\keyenceiolink\\lrxcyclicreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:lrxcyclicreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|d:\\dson\\coding\\c#\\keyenceiolink\\lrxdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:lrxdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|e:\\dson\\coding\\c#\\keyenceiolink\\lrxmessagewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|d:\\dson\\coding\\c#\\keyenceiolink\\lrxmessagewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:lrxmessagewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|e:\\dson\\coding\\c#\\keyenceiolink\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|d:\\dson\\coding\\c#\\keyenceiolink\\lrxcyclicreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:lrxcyclicreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|d:\\dson\\coding\\c#\\keyenceiolink\\nqconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16C124EB-167A-42CB-B4A7-751391ADDF87}|KeyenceIOLink.csproj|solutionrelative:nqconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +42,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LrXData.cs",
+              "DocumentMoniker": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXData.cs",
+              "RelativeDocumentMoniker": "LrXData.cs",
+              "ToolTip": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXData.cs",
+              "RelativeToolTip": "LrXData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:30:29.918Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "LrXMessageWriter.cs",
-              "DocumentMoniker": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXMessageWriter.cs",
+              "DocumentMoniker": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXMessageWriter.cs",
               "RelativeDocumentMoniker": "LrXMessageWriter.cs",
-              "ToolTip": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXMessageWriter.cs",
+              "ToolTip": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXMessageWriter.cs",
               "RelativeToolTip": "LrXMessageWriter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T06:40:11.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LrXCyclicReader.cs",
-              "DocumentMoniker": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXCyclicReader.cs",
+              "DocumentMoniker": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXCyclicReader.cs",
               "RelativeDocumentMoniker": "LrXCyclicReader.cs",
-              "ToolTip": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXCyclicReader.cs",
+              "ToolTip": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\LrXCyclicReader.cs",
               "RelativeToolTip": "LrXCyclicReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-14T04:38:24.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "NqConfig.cs",
-              "DocumentMoniker": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\NqConfig.cs",
+              "DocumentMoniker": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\NqConfig.cs",
               "RelativeDocumentMoniker": "NqConfig.cs",
-              "ToolTip": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\NqConfig.cs",
+              "ToolTip": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\NqConfig.cs",
               "RelativeToolTip": "NqConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T04:37:35.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T04:37:35.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\Program.cs",
+              "DocumentMoniker": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\Program.cs",
+              "ToolTip": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T06:23:08.237Z"
+              "WhenOpened": "2025-11-28T06:23:08.237Z",
+              "EditorCaption": ""
             }
           ]
         }

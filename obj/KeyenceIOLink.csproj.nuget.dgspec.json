@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj": {}
+    "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj": {}
   },
   "projects": {
-    "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj": {
+    "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+        "projectUniqueName": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
         "projectName": "KeyenceIOLink",
-        "projectPath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+        "projectPath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
         "packagesPath": "C:\\Users\\DRBVN-PI\\.nuget\\packages\\",
-        "outputPath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\obj\\",
+        "outputPath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",

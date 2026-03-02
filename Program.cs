@@ -15,30 +15,28 @@ namespace NQ_LRX_Demo
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-
+            // --- KHỞI TẠO HỆ THỐNG ---
             var reader = new LrXCyclicReader();
             Console.WriteLine("--- KHỞI TẠO HỆ THỐNG ---");
-
             reader.Connect();
-
             LrXMessageWriter? writer = reader.IsConnected ? new LrXMessageWriter(reader.Client) : null;
-
             Console.CancelKeyPress += (s, e) =>
             {
                 e.Cancel = true;
                 reader.Disconnect();
                 Environment.Exit(0);
             };
-
             DateTime nextPing = DateTime.UtcNow.AddSeconds(1);
             bool linkOk = reader.IsConnected;
 
+            int PortNumber = 3;
+            // --- VÒNG LẶP CHÍNH ---
             while (true)
             {
                 // Gửi lệnh Zero-Shift
                 if (Console.KeyAvailable && Console.ReadKey(true).Key == ConsoleKey.Enter)
                 {
-                    writer?.SendZeroShift(NqConfig.IoLinkPort);
+                    writer?.SendZeroShift((byte)PortNumber);
                 }
 
                 // ---- Ping kết nối mỗi 1 giây ----
@@ -62,13 +60,14 @@ namespace NQ_LRX_Demo
                 }
 
                 // Đọc dữ liệu process data
-                var data = reader.Read();
+                var data = reader.Read(PortNumber);
 
                 // Hiển thị
                 if (reader.IsConnected && linkOk && data.IsValid)
                 {
                     Console.Write(
                         $"\rDist: {data.DistanceMm,7:0.1} mm | " +
+                        $"OUT1:{(data.Out1 ? 1 : 0)} OUT2:{(data.Out2 ? 1 : 0)} " +
                         $"OUT1:{(data.Out1 ? 1 : 0)} OUT2:{(data.Out2 ? 1 : 0)} " +
                         $"Warn:{(data.Warning ? 1 : 0)} Err:{(data.Error ? 1 : 0)} | Link: OK        ");
                 }

@@ -49,3 +49,5 @@ E:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\KeyenceIOLink.csproj.AssemblyRe
 E:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\KeyenceI.E3E79C9A.Up2Date
 E:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\KeyenceIOLink.genruntimeconfig.cache
 E:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\ref\KeyenceIOLink.dll
+E:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\KeyenceIOLink.sourcelink.json
+D:\DSon\Coding\C#\KeyenceIOLink\obj\Debug\net8.0\KeyenceIOLink.sourcelink.json

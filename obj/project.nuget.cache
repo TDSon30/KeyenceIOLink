@@ -1,19 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "us1HKYFXtgI=",
+  "dgSpecHash": "kd3jn9BwCug=",
   "success": true,
-  "projectFilePath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+  "projectFilePath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DRBVN-PI\\.nuget\\packages\\eeip\\1.6.0.26419\\eeip.1.6.0.26419.nupkg.sha512"
   ],
   "logs": [
     {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+      "targetGraphs": []
+    },
+    {
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'EEIP 1.6.0.26419' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+      "projectPath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
       "warningLevel": 1,
-      "filePath": "E:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
+      "filePath": "D:\\DSon\\Coding\\C#\\KeyenceIOLink\\KeyenceIOLink.csproj",
       "libraryId": "EEIP",
       "targetGraphs": [
         "net8.0"
